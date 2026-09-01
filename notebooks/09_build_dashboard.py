@@ -229,7 +229,13 @@ document.getElementById('vr').textContent=tr.toFixed(2);
 document.getElementById('vd').textContent=td.toFixed(2);
 const cl=swp.reduce((b,s)=>Math.abs(s.threshold-td)<Math.abs(b.threshold-td)?s:b);
 document.getElementById('sk').innerHTML=`<div class="c kpi"><div class="v" style="color:#10b981">${gbp(cl.total_cost)}</div><div class="l">Est. Cost</div></div><div class="c kpi"><div class="v" style="color:#3b82f6">${cl.fraud_value_captured_pct}%</div><div class="l">Fraud Captured</div></div><div class="c kpi"><div class="v" style="color:#06b6d4">${(cl.legit_approval_rate*100).toFixed(1)}%</div><div class="l">Legit Approval</div></div><div class="c kpi"><div class="v" style="color:#f59e0b">${cl.precision.toFixed(3)}</div><div class="l">Precision</div></div>`;
-sdn.data.datasets[0].data=[cl.tn+cl.fn,Math.round(cl.fp*.3),cl.tp+Math.round(cl.fp*.7)];sdn.update();}
+// Use both thresholds: find closest sweep entry for review threshold too
+const clr=swp.reduce((b,s)=>Math.abs(s.threshold-tr)<Math.abs(b.threshold-tr)?s:b);
+const approved=clr.tn+clr.fn; // below review threshold: legit passed + fraud missed
+const total=cl.tp+cl.fp+cl.tn+cl.fn;
+const declined=cl.tp+cl.fp; // above decline threshold: blocked
+const reviewed=Math.max(0,total-approved-declined); // between thresholds
+sdn.data.datasets[0].data=[approved,reviewed,declined];sdn.update();}
 usim();
 """
 

@@ -133,16 +133,17 @@ for name, model in models.items():
 
 # Feature importance (from HistGBT)
 hgbt = model_objects['HistGradientBoosting']
-# HistGBT doesn't have feature_importances_ directly in all versions; use permutation
-# Actually it does have it
-if hasattr(hgbt, 'feature_importances_'):
-    fi = dict(zip(feature_cols, hgbt.feature_importances_.round(4).tolist()))
-    fi_sorted = dict(sorted(fi.items(), key=lambda x: -x[1]))
-    results['feature_importance'] = fi_sorted
-    print(f"\nTop 10 features (HistGBT):")
-    for i, (f, v) in enumerate(fi_sorted.items()):
-        if i >= 10: break
-        print(f"  {f:30s}: {v:.4f}")
+# Feature importance via permutation importance (works with all sklearn versions)
+from sklearn.inspection import permutation_importance
+print("\nComputing permutation importance (HistGBT on validation set)...")
+perm_result = permutation_importance(hgbt, X_val, y_val, n_repeats=10, random_state=42, n_jobs=-1, scoring='average_precision')
+fi = dict(zip(feature_cols, perm_result.importances_mean.round(4).tolist()))
+fi_sorted = dict(sorted(fi.items(), key=lambda x: -x[1]))
+results['feature_importance'] = fi_sorted
+print(f"Top 10 features (HistGBT permutation importance):")
+for i, (f, v) in enumerate(fi_sorted.items()):
+    if i >= 10: break
+    print(f"  {f:30s}: {v:.4f}")
 
 # Save test predictions for downstream phases
 test_copy = test.copy()
