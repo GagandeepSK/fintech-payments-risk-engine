@@ -1,0 +1,1117 @@
+{
+  "overall_summary": [
+    {
+      "total_txns": 500241,
+      "fraud_txns": 9808.0,
+      "fraud_rate_pct": 1.961,
+      "total_value": 43205439.74,
+      "fraud_value": 1701221.19,
+      "avg_amount": 86.37,
+      "avg_fraud_amount": 173.45
+    }
+  ],
+  "fraud_by_category": [
+    {
+      "merchant_category": "online_services",
+      "txn_count": 57474,
+      "fraud_count": 2525.0,
+      "fraud_rate": 4.393,
+      "avg_amount": 38.33,
+      "fraud_value": 136873.0
+    },
+    {
+      "merchant_category": "electronics",
+      "txn_count": 60141,
+      "fraud_count": 2298.0,
+      "fraud_rate": 3.821,
+      "avg_amount": 168.33,
+      "fraud_value": 539418.58
+    },
+    {
+      "merchant_category": "travel",
+      "txn_count": 56482,
+      "fraud_count": 1805.0,
+      "fraud_rate": 3.196,
+      "avg_amount": 304.04,
+      "fraud_value": 856776.82
+    },
+    {
+      "merchant_category": "entertainment",
+      "txn_count": 55330,
+      "fraud_count": 811.0,
+      "fraud_rate": 1.466,
+      "avg_amount": 42.65,
+      "fraud_value": 46488.35
+    },
+    {
+      "merchant_category": "clothing",
+      "txn_count": 61532,
+      "fraud_count": 761.0,
+      "fraud_rate": 1.237,
+      "avg_amount": 68.85,
+      "fraud_value": 65697.0
+    },
+    {
+      "merchant_category": "fuel",
+      "txn_count": 60839,
+      "fraud_count": 556.0,
+      "fraud_rate": 0.914,
+      "avg_amount": 40.36,
+      "fraud_value": 22220.02
+    },
+    {
+      "merchant_category": "restaurants",
+      "txn_count": 71079,
+      "fraud_count": 584.0,
+      "fraud_rate": 0.822,
+      "avg_amount": 27.44,
+      "fraud_value": 17142.31
+    },
+    {
+      "merchant_category": "grocery",
+      "txn_count": 77364,
+      "fraud_count": 468.0,
+      "fraud_rate": 0.605,
+      "avg_amount": 34.95,
+      "fraud_value": 16605.11
+    }
+  ],
+  "fraud_by_payment": [
+    {
+      "payment_method": "crypto",
+      "txn_count": 51577,
+      "fraud_count": 1775.0,
+      "fraud_rate": 3.441,
+      "avg_amount": 87.18
+    },
+    {
+      "payment_method": "bank_transfer",
+      "txn_count": 97465,
+      "fraud_count": 2104.0,
+      "fraud_rate": 2.159,
+      "avg_amount": 85.01
+    },
+    {
+      "payment_method": "card",
+      "txn_count": 229067,
+      "fraud_count": 4399.0,
+      "fraud_rate": 1.92,
+      "avg_amount": 86.23
+    },
+    {
+      "payment_method": "wallet",
+      "txn_count": 122132,
+      "fraud_count": 1530.0,
+      "fraud_rate": 1.253,
+      "avg_amount": 87.37
+    }
+  ],
+  "hourly_fraud": [
+    {
+      "hour": 0,
+      "txn_count": 21118,
+      "fraud_count": 944.0,
+      "fraud_rate": 4.47
+    },
+    {
+      "hour": 1,
+      "txn_count": 20782,
+      "fraud_count": 720.0,
+      "fraud_rate": 3.465
+    },
+    {
+      "hour": 2,
+      "txn_count": 20870,
+      "fraud_count": 683.0,
+      "fraud_rate": 3.273
+    },
+    {
+      "hour": 3,
+      "txn_count": 20867,
+      "fraud_count": 733.0,
+      "fraud_rate": 3.513
+    },
+    {
+      "hour": 4,
+      "txn_count": 20838,
+      "fraud_count": 727.0,
+      "fraud_rate": 3.489
+    },
+    {
+      "hour": 5,
+      "txn_count": 21126,
+      "fraud_count": 739.0,
+      "fraud_rate": 3.498
+    },
+    {
+      "hour": 6,
+      "txn_count": 20887,
+      "fraud_count": 333.0,
+      "fraud_rate": 1.594
+    },
+    {
+      "hour": 7,
+      "txn_count": 20640,
+      "fraud_count": 260.0,
+      "fraud_rate": 1.26
+    },
+    {
+      "hour": 8,
+      "txn_count": 21043,
+      "fraud_count": 285.0,
+      "fraud_rate": 1.354
+    },
+    {
+      "hour": 9,
+      "txn_count": 20615,
+      "fraud_count": 273.0,
+      "fraud_rate": 1.324
+    },
+    {
+      "hour": 10,
+      "txn_count": 20634,
+      "fraud_count": 267.0,
+      "fraud_rate": 1.294
+    },
+    {
+      "hour": 11,
+      "txn_count": 20652,
+      "fraud_count": 278.0,
+      "fraud_rate": 1.346
+    },
+    {
+      "hour": 12,
+      "txn_count": 20862,
+      "fraud_count": 287.0,
+      "fraud_rate": 1.376
+    },
+    {
+      "hour": 13,
+      "txn_count": 20726,
+      "fraud_count": 284.0,
+      "fraud_rate": 1.37
+    },
+    {
+      "hour": 14,
+      "txn_count": 20811,
+      "fraud_count": 304.0,
+      "fraud_rate": 1.461
+    },
+    {
+      "hour": 15,
+      "txn_count": 21034,
+      "fraud_count": 302.0,
+      "fraud_rate": 1.436
+    },
+    {
+      "hour": 16,
+      "txn_count": 21174,
+      "fraud_count": 315.0,
+      "fraud_rate": 1.488
+    },
+    {
+      "hour": 17,
+      "txn_count": 20819,
+      "fraud_count": 271.0,
+      "fraud_rate": 1.302
+    },
+    {
+      "hour": 18,
+      "txn_count": 20868,
+      "fraud_count": 328.0,
+      "fraud_rate": 1.572
+    },
+    {
+      "hour": 19,
+      "txn_count": 20709,
+      "fraud_count": 308.0,
+      "fraud_rate": 1.487
+    },
+    {
+      "hour": 20,
+      "txn_count": 20870,
+      "fraud_count": 291.0,
+      "fraud_rate": 1.394
+    },
+    {
+      "hour": 21,
+      "txn_count": 20765,
+      "fraud_count": 287.0,
+      "fraud_rate": 1.382
+    },
+    {
+      "hour": 22,
+      "txn_count": 20730,
+      "fraud_count": 306.0,
+      "fraud_rate": 1.476
+    },
+    {
+      "hour": 23,
+      "txn_count": 20801,
+      "fraud_count": 283.0,
+      "fraud_rate": 1.361
+    }
+  ],
+  "dow_fraud": [
+    {
+      "day_of_week": 0,
+      "txn_count": 71601,
+      "fraud_count": 1466.0,
+      "fraud_rate": 2.047
+    },
+    {
+      "day_of_week": 1,
+      "txn_count": 71955,
+      "fraud_count": 1394.0,
+      "fraud_rate": 1.937
+    },
+    {
+      "day_of_week": 2,
+      "txn_count": 69185,
+      "fraud_count": 1352.0,
+      "fraud_rate": 1.954
+    },
+    {
+      "day_of_week": 3,
+      "txn_count": 72037,
+      "fraud_count": 1393.0,
+      "fraud_rate": 1.934
+    },
+    {
+      "day_of_week": 4,
+      "txn_count": 72093,
+      "fraud_count": 1431.0,
+      "fraud_rate": 1.985
+    },
+    {
+      "day_of_week": 5,
+      "txn_count": 71498,
+      "fraud_count": 1353.0,
+      "fraud_rate": 1.892
+    },
+    {
+      "day_of_week": 6,
+      "txn_count": 71872,
+      "fraud_count": 1419.0,
+      "fraud_rate": 1.974
+    }
+  ],
+  "monthly_trend": [
+    {
+      "month": "2025-01-01 00:00:00",
+      "txn_count": 85482,
+      "fraud_count": 1764.0,
+      "fraud_rate": 2.064,
+      "total_value": 7406478.0,
+      "fraud_value": 299305.0
+    },
+    {
+      "month": "2025-02-01 00:00:00",
+      "txn_count": 77809,
+      "fraud_count": 1554.0,
+      "fraud_rate": 1.997,
+      "total_value": 6715560.0,
+      "fraud_value": 268353.0
+    },
+    {
+      "month": "2025-03-01 00:00:00",
+      "txn_count": 85545,
+      "fraud_count": 1679.0,
+      "fraud_rate": 1.963,
+      "total_value": 7482018.0,
+      "fraud_value": 305912.0
+    },
+    {
+      "month": "2025-04-01 00:00:00",
+      "txn_count": 82464,
+      "fraud_count": 1560.0,
+      "fraud_rate": 1.892,
+      "total_value": 7041453.0,
+      "fraud_value": 257026.0
+    },
+    {
+      "month": "2025-05-01 00:00:00",
+      "txn_count": 86098,
+      "fraud_count": 1678.0,
+      "fraud_rate": 1.949,
+      "total_value": 7394132.0,
+      "fraud_value": 284310.0
+    },
+    {
+      "month": "2025-06-01 00:00:00",
+      "txn_count": 82843,
+      "fraud_count": 1573.0,
+      "fraud_rate": 1.899,
+      "total_value": 7165799.0,
+      "fraud_value": 286315.0
+    }
+  ],
+  "cross_border": [
+    {
+      "country": "ES",
+      "txn_count": 23511,
+      "fraud_count": 543.0,
+      "fraud_rate": 2.31,
+      "fraud_value": 93201.83
+    },
+    {
+      "country": "SG",
+      "txn_count": 15624,
+      "fraud_count": 333.0,
+      "fraud_rate": 2.131,
+      "fraud_value": 50760.11
+    },
+    {
+      "country": "IE",
+      "txn_count": 20850,
+      "fraud_count": 428.0,
+      "fraud_rate": 2.053,
+      "fraud_value": 58012.54
+    },
+    {
+      "country": "IN",
+      "txn_count": 21301,
+      "fraud_count": 422.0,
+      "fraud_rate": 1.981,
+      "fraud_value": 62330.78
+    },
+    {
+      "country": "NL",
+      "txn_count": 21898,
+      "fraud_count": 432.0,
+      "fraud_rate": 1.973,
+      "fraud_value": 74112.19
+    },
+    {
+      "country": "IT",
+      "txn_count": 24969,
+      "fraud_count": 491.0,
+      "fraud_rate": 1.966,
+      "fraud_value": 82750.84
+    },
+    {
+      "country": "FR",
+      "txn_count": 44491,
+      "fraud_count": 869.0,
+      "fraud_rate": 1.953,
+      "fraud_value": 153246.85
+    },
+    {
+      "country": "US",
+      "txn_count": 75300,
+      "fraud_count": 1463.0,
+      "fraud_rate": 1.943,
+      "fraud_value": 248572.55
+    },
+    {
+      "country": "DE",
+      "txn_count": 55452,
+      "fraud_count": 1066.0,
+      "fraud_rate": 1.922,
+      "fraud_value": 180313.96
+    },
+    {
+      "country": "GB",
+      "txn_count": 196845,
+      "fraud_count": 3761.0,
+      "fraud_rate": 1.911,
+      "fraud_value": 697919.54
+    }
+  ],
+  "high_value_analysis": [
+    {
+      "amount_tier": "P99+",
+      "txn_count": 5003,
+      "fraud_count": 354.0,
+      "fraud_rate": 7.076,
+      "avg_amount": 1671.67
+    },
+    {
+      "amount_tier": "P95-P99",
+      "txn_count": 20010,
+      "fraud_count": 996.0,
+      "fraud_rate": 4.978,
+      "avg_amount": 500.22
+    },
+    {
+      "amount_tier": "Below P95",
+      "txn_count": 475228,
+      "fraud_count": 8458.0,
+      "fraud_rate": 1.78,
+      "avg_amount": 52.25
+    }
+  ],
+  "customer_concentration": [
+    {
+      "customer_id": "CUST_08432",
+      "total_txns": 5433,
+      "fraud_txns": 88.0,
+      "fraud_value": 12580.11,
+      "avg_amount": 74.06
+    },
+    {
+      "customer_id": "CUST_02973",
+      "total_txns": 2312,
+      "fraud_txns": 74.0,
+      "fraud_value": 21192.24,
+      "avg_amount": 179.65
+    },
+    {
+      "customer_id": "CUST_01422",
+      "total_txns": 2276,
+      "fraud_txns": 56.0,
+      "fraud_value": 6057.3,
+      "avg_amount": 59.51
+    },
+    {
+      "customer_id": "CUST_01794",
+      "total_txns": 3068,
+      "fraud_txns": 55.0,
+      "fraud_value": 9509.96,
+      "avg_amount": 77.77
+    },
+    {
+      "customer_id": "CUST_08836",
+      "total_txns": 1544,
+      "fraud_txns": 53.0,
+      "fraud_value": 9325.16,
+      "avg_amount": 69.51
+    },
+    {
+      "customer_id": "CUST_06477",
+      "total_txns": 1036,
+      "fraud_txns": 42.0,
+      "fraud_value": 3508.71,
+      "avg_amount": 30.68
+    },
+    {
+      "customer_id": "CUST_08443",
+      "total_txns": 1865,
+      "fraud_txns": 36.0,
+      "fraud_value": 3503.73,
+      "avg_amount": 37.77
+    },
+    {
+      "customer_id": "CUST_02372",
+      "total_txns": 864,
+      "fraud_txns": 33.0,
+      "fraud_value": 3456.75,
+      "avg_amount": 73.64
+    },
+    {
+      "customer_id": "CUST_01544",
+      "total_txns": 1632,
+      "fraud_txns": 32.0,
+      "fraud_value": 5927.49,
+      "avg_amount": 75.4
+    },
+    {
+      "customer_id": "CUST_03737",
+      "total_txns": 1029,
+      "fraud_txns": 31.0,
+      "fraud_value": 4381.74,
+      "avg_amount": 68.68
+    },
+    {
+      "customer_id": "CUST_09795",
+      "total_txns": 897,
+      "fraud_txns": 29.0,
+      "fraud_value": 10955.57,
+      "avg_amount": 197.99
+    },
+    {
+      "customer_id": "CUST_02214",
+      "total_txns": 1034,
+      "fraud_txns": 29.0,
+      "fraud_value": 3141.2,
+      "avg_amount": 58.62
+    },
+    {
+      "customer_id": "CUST_02181",
+      "total_txns": 1798,
+      "fraud_txns": 28.0,
+      "fraud_value": 6701.42,
+      "avg_amount": 86.54
+    },
+    {
+      "customer_id": "CUST_01070",
+      "total_txns": 606,
+      "fraud_txns": 27.0,
+      "fraud_value": 5480.99,
+      "avg_amount": 143.42
+    },
+    {
+      "customer_id": "CUST_04361",
+      "total_txns": 1610,
+      "fraud_txns": 26.0,
+      "fraud_value": 2877.04,
+      "avg_amount": 46.53
+    },
+    {
+      "customer_id": "CUST_06493",
+      "total_txns": 1164,
+      "fraud_txns": 26.0,
+      "fraud_value": 5453.5,
+      "avg_amount": 100.11
+    },
+    {
+      "customer_id": "CUST_02281",
+      "total_txns": 867,
+      "fraud_txns": 25.0,
+      "fraud_value": 1215.34,
+      "avg_amount": 34.25
+    },
+    {
+      "customer_id": "CUST_03117",
+      "total_txns": 1753,
+      "fraud_txns": 24.0,
+      "fraud_value": 3262.24,
+      "avg_amount": 45.31
+    },
+    {
+      "customer_id": "CUST_07156",
+      "total_txns": 1204,
+      "fraud_txns": 24.0,
+      "fraud_value": 5921.71,
+      "avg_amount": 125.99
+    },
+    {
+      "customer_id": "CUST_02616",
+      "total_txns": 1562,
+      "fraud_txns": 24.0,
+      "fraud_value": 3405.11,
+      "avg_amount": 49.75
+    },
+    {
+      "customer_id": "CUST_00342",
+      "total_txns": 677,
+      "fraud_txns": 23.0,
+      "fraud_value": 4252.21,
+      "avg_amount": 129.56
+    },
+    {
+      "customer_id": "CUST_05709",
+      "total_txns": 999,
+      "fraud_txns": 23.0,
+      "fraud_value": 4265.0,
+      "avg_amount": 126.2
+    },
+    {
+      "customer_id": "CUST_02775",
+      "total_txns": 1377,
+      "fraud_txns": 23.0,
+      "fraud_value": 2197.42,
+      "avg_amount": 65.48
+    },
+    {
+      "customer_id": "CUST_00534",
+      "total_txns": 724,
+      "fraud_txns": 22.0,
+      "fraud_value": 997.24,
+      "avg_amount": 30.97
+    },
+    {
+      "customer_id": "CUST_04692",
+      "total_txns": 1118,
+      "fraud_txns": 21.0,
+      "fraud_value": 5643.82,
+      "avg_amount": 124.99
+    }
+  ],
+  "merchant_risk": [
+    {
+      "merchant_id": "MERCH_1112",
+      "merchant_category": "online_services",
+      "total_txns": 251,
+      "fraud_txns": 24.0,
+      "fraud_rate": 9.562,
+      "fraud_value": 1007.92
+    },
+    {
+      "merchant_id": "MERCH_1586",
+      "merchant_category": "electronics",
+      "total_txns": 278,
+      "fraud_txns": 24.0,
+      "fraud_rate": 8.633,
+      "fraud_value": 3766.91
+    },
+    {
+      "merchant_id": "MERCH_0587",
+      "merchant_category": "electronics",
+      "total_txns": 295,
+      "fraud_txns": 24.0,
+      "fraud_rate": 8.136,
+      "fraud_value": 6632.86
+    },
+    {
+      "merchant_id": "MERCH_1929",
+      "merchant_category": "electronics",
+      "total_txns": 248,
+      "fraud_txns": 19.0,
+      "fraud_rate": 7.661,
+      "fraud_value": 3891.25
+    },
+    {
+      "merchant_id": "MERCH_1379",
+      "merchant_category": "online_services",
+      "total_txns": 263,
+      "fraud_txns": 20.0,
+      "fraud_rate": 7.605,
+      "fraud_value": 1424.76
+    },
+    {
+      "merchant_id": "MERCH_0236",
+      "merchant_category": "online_services",
+      "total_txns": 277,
+      "fraud_txns": 21.0,
+      "fraud_rate": 7.581,
+      "fraud_value": 927.71
+    },
+    {
+      "merchant_id": "MERCH_1083",
+      "merchant_category": "online_services",
+      "total_txns": 254,
+      "fraud_txns": 19.0,
+      "fraud_rate": 7.48,
+      "fraud_value": 1478.93
+    },
+    {
+      "merchant_id": "MERCH_1999",
+      "merchant_category": "online_services",
+      "total_txns": 281,
+      "fraud_txns": 21.0,
+      "fraud_rate": 7.473,
+      "fraud_value": 1829.66
+    },
+    {
+      "merchant_id": "MERCH_0155",
+      "merchant_category": "electronics",
+      "total_txns": 265,
+      "fraud_txns": 19.0,
+      "fraud_rate": 7.17,
+      "fraud_value": 4053.5
+    },
+    {
+      "merchant_id": "MERCH_0231",
+      "merchant_category": "electronics",
+      "total_txns": 267,
+      "fraud_txns": 19.0,
+      "fraud_rate": 7.116,
+      "fraud_value": 7838.2
+    },
+    {
+      "merchant_id": "MERCH_0667",
+      "merchant_category": "electronics",
+      "total_txns": 284,
+      "fraud_txns": 20.0,
+      "fraud_rate": 7.042,
+      "fraud_value": 4678.59
+    },
+    {
+      "merchant_id": "MERCH_0247",
+      "merchant_category": "electronics",
+      "total_txns": 260,
+      "fraud_txns": 18.0,
+      "fraud_rate": 6.923,
+      "fraud_value": 3479.69
+    },
+    {
+      "merchant_id": "MERCH_1654",
+      "merchant_category": "online_services",
+      "total_txns": 276,
+      "fraud_txns": 19.0,
+      "fraud_rate": 6.884,
+      "fraud_value": 875.1
+    },
+    {
+      "merchant_id": "MERCH_0055",
+      "merchant_category": "electronics",
+      "total_txns": 263,
+      "fraud_txns": 18.0,
+      "fraud_rate": 6.844,
+      "fraud_value": 7871.96
+    },
+    {
+      "merchant_id": "MERCH_0776",
+      "merchant_category": "online_services",
+      "total_txns": 293,
+      "fraud_txns": 20.0,
+      "fraud_rate": 6.826,
+      "fraud_value": 1652.26
+    },
+    {
+      "merchant_id": "MERCH_1332",
+      "merchant_category": "online_services",
+      "total_txns": 235,
+      "fraud_txns": 16.0,
+      "fraud_rate": 6.809,
+      "fraud_value": 540.38
+    },
+    {
+      "merchant_id": "MERCH_0197",
+      "merchant_category": "online_services",
+      "total_txns": 267,
+      "fraud_txns": 18.0,
+      "fraud_rate": 6.742,
+      "fraud_value": 1235.0
+    },
+    {
+      "merchant_id": "MERCH_0331",
+      "merchant_category": "travel",
+      "total_txns": 343,
+      "fraud_txns": 23.0,
+      "fraud_rate": 6.706,
+      "fraud_value": 10737.27
+    },
+    {
+      "merchant_id": "MERCH_0343",
+      "merchant_category": "online_services",
+      "total_txns": 299,
+      "fraud_txns": 20.0,
+      "fraud_rate": 6.689,
+      "fraud_value": 1233.53
+    },
+    {
+      "merchant_id": "MERCH_1529",
+      "merchant_category": "electronics",
+      "total_txns": 248,
+      "fraud_txns": 16.0,
+      "fraud_rate": 6.452,
+      "fraud_value": 2357.3
+    },
+    {
+      "merchant_id": "MERCH_1912",
+      "merchant_category": "online_services",
+      "total_txns": 280,
+      "fraud_txns": 18.0,
+      "fraud_rate": 6.429,
+      "fraud_value": 1047.25
+    },
+    {
+      "merchant_id": "MERCH_0554",
+      "merchant_category": "electronics",
+      "total_txns": 249,
+      "fraud_txns": 16.0,
+      "fraud_rate": 6.426,
+      "fraud_value": 2914.32
+    },
+    {
+      "merchant_id": "MERCH_1826",
+      "merchant_category": "online_services",
+      "total_txns": 297,
+      "fraud_txns": 19.0,
+      "fraud_rate": 6.397,
+      "fraud_value": 897.2
+    },
+    {
+      "merchant_id": "MERCH_1935",
+      "merchant_category": "online_services",
+      "total_txns": 297,
+      "fraud_txns": 19.0,
+      "fraud_rate": 6.397,
+      "fraud_value": 764.11
+    },
+    {
+      "merchant_id": "MERCH_1751",
+      "merchant_category": "online_services",
+      "total_txns": 283,
+      "fraud_txns": 18.0,
+      "fraud_rate": 6.36,
+      "fraud_value": 801.96
+    }
+  ],
+  "velocity_analysis": [
+    {
+      "time_gap": "<1 min",
+      "txn_count": 697,
+      "fraud_count": 144.0,
+      "fraud_rate": 20.66
+    },
+    {
+      "time_gap": "1-10 min",
+      "txn_count": 5050,
+      "fraud_count": 160.0,
+      "fraud_rate": 3.168
+    },
+    {
+      "time_gap": "First txn",
+      "txn_count": 10000,
+      "fraud_count": 208.0,
+      "fraud_rate": 2.08
+    },
+    {
+      "time_gap": "1-24 hr",
+      "txn_count": 185253,
+      "fraud_count": 3571.0,
+      "fraud_rate": 1.928
+    },
+    {
+      "time_gap": ">24 hr",
+      "txn_count": 276272,
+      "fraud_count": 5290.0,
+      "fraud_rate": 1.915
+    },
+    {
+      "time_gap": "10-60 min",
+      "txn_count": 22969,
+      "fraud_count": 435.0,
+      "fraud_rate": 1.894
+    }
+  ],
+  "category_payment_cross": [
+    {
+      "merchant_category": "online_services",
+      "payment_method": "crypto",
+      "txn_count": 5978,
+      "fraud_count": 505.0,
+      "fraud_rate": 8.448
+    },
+    {
+      "merchant_category": "electronics",
+      "payment_method": "crypto",
+      "txn_count": 5909,
+      "fraud_count": 400.0,
+      "fraud_rate": 6.769
+    },
+    {
+      "merchant_category": "travel",
+      "payment_method": "crypto",
+      "txn_count": 5854,
+      "fraud_count": 330.0,
+      "fraud_rate": 5.637
+    },
+    {
+      "merchant_category": "online_services",
+      "payment_method": "bank_transfer",
+      "txn_count": 10785,
+      "fraud_count": 534.0,
+      "fraud_rate": 4.951
+    },
+    {
+      "merchant_category": "electronics",
+      "payment_method": "bank_transfer",
+      "txn_count": 11525,
+      "fraud_count": 484.0,
+      "fraud_rate": 4.2
+    },
+    {
+      "merchant_category": "online_services",
+      "payment_method": "card",
+      "txn_count": 26374,
+      "fraud_count": 1095.0,
+      "fraud_rate": 4.152
+    },
+    {
+      "merchant_category": "electronics",
+      "payment_method": "card",
+      "txn_count": 28376,
+      "fraud_count": 1066.0,
+      "fraud_rate": 3.757
+    },
+    {
+      "merchant_category": "travel",
+      "payment_method": "bank_transfer",
+      "txn_count": 11406,
+      "fraud_count": 412.0,
+      "fraud_rate": 3.612
+    },
+    {
+      "merchant_category": "travel",
+      "payment_method": "card",
+      "txn_count": 25508,
+      "fraud_count": 785.0,
+      "fraud_rate": 3.077
+    },
+    {
+      "merchant_category": "online_services",
+      "payment_method": "wallet",
+      "txn_count": 14337,
+      "fraud_count": 391.0,
+      "fraud_rate": 2.727
+    },
+    {
+      "merchant_category": "electronics",
+      "payment_method": "wallet",
+      "txn_count": 14331,
+      "fraud_count": 348.0,
+      "fraud_rate": 2.428
+    },
+    {
+      "merchant_category": "entertainment",
+      "payment_method": "crypto",
+      "txn_count": 5886,
+      "fraud_count": 141.0,
+      "fraud_rate": 2.396
+    },
+    {
+      "merchant_category": "clothing",
+      "payment_method": "crypto",
+      "txn_count": 6837,
+      "fraud_count": 150.0,
+      "fraud_rate": 2.194
+    },
+    {
+      "merchant_category": "travel",
+      "payment_method": "wallet",
+      "txn_count": 13714,
+      "fraud_count": 278.0,
+      "fraud_rate": 2.027
+    },
+    {
+      "merchant_category": "entertainment",
+      "payment_method": "bank_transfer",
+      "txn_count": 10339,
+      "fraud_count": 168.0,
+      "fraud_rate": 1.625
+    },
+    {
+      "merchant_category": "entertainment",
+      "payment_method": "card",
+      "txn_count": 25666,
+      "fraud_count": 360.0,
+      "fraud_rate": 1.403
+    },
+    {
+      "merchant_category": "clothing",
+      "payment_method": "bank_transfer",
+      "txn_count": 12128,
+      "fraud_count": 167.0,
+      "fraud_rate": 1.377
+    },
+    {
+      "merchant_category": "fuel",
+      "payment_method": "crypto",
+      "txn_count": 6116,
+      "fraud_count": 83.0,
+      "fraud_rate": 1.357
+    },
+    {
+      "merchant_category": "restaurants",
+      "payment_method": "crypto",
+      "txn_count": 7484,
+      "fraud_count": 97.0,
+      "fraud_rate": 1.296
+    },
+    {
+      "merchant_category": "clothing",
+      "payment_method": "card",
+      "txn_count": 27486,
+      "fraud_count": 328.0,
+      "fraud_rate": 1.193
+    }
+  ],
+  "night_day_category": [
+    {
+      "merchant_category": "clothing",
+      "period": "Day",
+      "txn_count": 46116,
+      "fraud_count": 401.0,
+      "fraud_rate": 0.87
+    },
+    {
+      "merchant_category": "clothing",
+      "period": "Night",
+      "txn_count": 15416,
+      "fraud_count": 360.0,
+      "fraud_rate": 2.335
+    },
+    {
+      "merchant_category": "electronics",
+      "period": "Day",
+      "txn_count": 44997,
+      "fraud_count": 1229.0,
+      "fraud_rate": 2.731
+    },
+    {
+      "merchant_category": "electronics",
+      "period": "Night",
+      "txn_count": 15144,
+      "fraud_count": 1069.0,
+      "fraud_rate": 7.059
+    },
+    {
+      "merchant_category": "entertainment",
+      "period": "Day",
+      "txn_count": 41492,
+      "fraud_count": 433.0,
+      "fraud_rate": 1.044
+    },
+    {
+      "merchant_category": "entertainment",
+      "period": "Night",
+      "txn_count": 13838,
+      "fraud_count": 378.0,
+      "fraud_rate": 2.732
+    },
+    {
+      "merchant_category": "fuel",
+      "period": "Day",
+      "txn_count": 45618,
+      "fraud_count": 317.0,
+      "fraud_rate": 0.695
+    },
+    {
+      "merchant_category": "fuel",
+      "period": "Night",
+      "txn_count": 15221,
+      "fraud_count": 239.0,
+      "fraud_rate": 1.57
+    },
+    {
+      "merchant_category": "grocery",
+      "period": "Day",
+      "txn_count": 57911,
+      "fraud_count": 256.0,
+      "fraud_rate": 0.442
+    },
+    {
+      "merchant_category": "grocery",
+      "period": "Night",
+      "txn_count": 19453,
+      "fraud_count": 212.0,
+      "fraud_rate": 1.09
+    },
+    {
+      "merchant_category": "online_services",
+      "period": "Day",
+      "txn_count": 42984,
+      "fraud_count": 1330.0,
+      "fraud_rate": 3.094
+    },
+    {
+      "merchant_category": "online_services",
+      "period": "Night",
+      "txn_count": 14490,
+      "fraud_count": 1195.0,
+      "fraud_rate": 8.247
+    },
+    {
+      "merchant_category": "restaurants",
+      "period": "Day",
+      "txn_count": 53101,
+      "fraud_count": 322.0,
+      "fraud_rate": 0.606
+    },
+    {
+      "merchant_category": "restaurants",
+      "period": "Night",
+      "txn_count": 17978,
+      "fraud_count": 262.0,
+      "fraud_rate": 1.457
+    },
+    {
+      "merchant_category": "travel",
+      "period": "Day",
+      "txn_count": 42421,
+      "fraud_count": 974.0,
+      "fraud_rate": 2.296
+    },
+    {
+      "merchant_category": "travel",
+      "period": "Night",
+      "txn_count": 14061,
+      "fraud_count": 831.0,
+      "fraud_rate": 5.91
+    }
+  ]
+}

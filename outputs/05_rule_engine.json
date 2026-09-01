@@ -1,0 +1,122 @@
+{
+  "R1_high_amount": {
+    "flagged": 13191,
+    "tp": 817,
+    "fp": 12374,
+    "fn": 8991,
+    "tn": 478059,
+    "precision": 0.0619,
+    "recall": 0.0833,
+    "f1": 0.071,
+    "flag_rate": 0.0264
+  },
+  "R2_night_txn": {
+    "flagged": 125601,
+    "tp": 4546,
+    "fp": 121055,
+    "fn": 5262,
+    "tn": 369378,
+    "precision": 0.0362,
+    "recall": 0.4635,
+    "f1": 0.0671,
+    "flag_rate": 0.2511
+  },
+  "R3_high_velocity_1h": {
+    "flagged": 1215,
+    "tp": 19,
+    "fp": 1196,
+    "fn": 9789,
+    "tn": 489237,
+    "precision": 0.0156,
+    "recall": 0.0019,
+    "f1": 0.0034,
+    "flag_rate": 0.0024
+  },
+  "R4_high_velocity_24h": {
+    "flagged": 20217,
+    "tp": 366,
+    "fp": 19851,
+    "fn": 9442,
+    "tn": 470582,
+    "precision": 0.0181,
+    "recall": 0.0373,
+    "f1": 0.0244,
+    "flag_rate": 0.0404
+  },
+  "R5_new_merchant_high_amount": {
+    "flagged": 38671,
+    "tp": 1799,
+    "fp": 36872,
+    "fn": 8009,
+    "tn": 453561,
+    "precision": 0.0465,
+    "recall": 0.1834,
+    "f1": 0.0742,
+    "flag_rate": 0.0773
+  },
+  "R6_cross_border": {
+    "flagged": 39503,
+    "tp": 1235,
+    "fp": 38268,
+    "fn": 8573,
+    "tn": 452165,
+    "precision": 0.0313,
+    "recall": 0.1259,
+    "f1": 0.0501,
+    "flag_rate": 0.079
+  },
+  "R7_amount_spike": {
+    "flagged": 18967,
+    "tp": 1139,
+    "fp": 17828,
+    "fn": 8669,
+    "tn": 472605,
+    "precision": 0.0601,
+    "recall": 0.1161,
+    "f1": 0.0792,
+    "flag_rate": 0.0379
+  },
+  "R8_crypto_high": {
+    "flagged": 9718,
+    "tp": 635,
+    "fp": 9083,
+    "fn": 9173,
+    "tn": 481350,
+    "precision": 0.0653,
+    "recall": 0.0647,
+    "f1": 0.065,
+    "flag_rate": 0.0194
+  },
+  "R9_electronics_night": {
+    "flagged": 15144,
+    "tp": 1069,
+    "fp": 14075,
+    "fn": 8739,
+    "tn": 476358,
+    "precision": 0.0706,
+    "recall": 0.109,
+    "f1": 0.0857,
+    "flag_rate": 0.0303
+  },
+  "R10_low_value_burst": {
+    "flagged": 34,
+    "tp": 3,
+    "fp": 31,
+    "fn": 9805,
+    "tn": 490402,
+    "precision": 0.0882,
+    "recall": 0.0003,
+    "f1": 0.0006,
+    "flag_rate": 0.0001
+  },
+  "combined": {
+    "flagged": 202283,
+    "tp": 6427,
+    "fp": 195856,
+    "fn": 3381,
+    "precision": 0.0318,
+    "recall": 0.6553,
+    "f1": 0.0606,
+    "flag_rate": 0.4044
+  }
+}

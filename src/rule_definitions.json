@@ -1,0 +1,12 @@
+{
+  "R1_high_amount": "amount > 500",
+  "R2_night_txn": "hour in [0,1,2,3,4,5]",
+  "R3_high_velocity_1h": "customer txns in last 1h >= 3",
+  "R4_high_velocity_24h": "customer txns in last 24h >= 10",
+  "R5_new_merchant_high_amount": "new merchant AND amount > 200",
+  "R6_cross_border": "transaction country != customer home country",
+  "R7_amount_spike": "amount > 5x customer average",
+  "R8_crypto_high": "crypto payment AND amount > 100",
+  "R9_electronics_night": "electronics category AND night hours",
+  "R10_low_value_burst": "amount < 3 AND 2+ txns in last hour (card testing)"
+}
