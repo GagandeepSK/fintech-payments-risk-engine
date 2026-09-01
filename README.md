@@ -2,7 +2,7 @@
 
 End-to-end fraud detection and risk decisioning pipeline for payment transactions, featuring synthetic data generation, SQL analysis, rule-based detection, ML model training, cost-sensitive threshold optimization, and an interactive HTML dashboard.
 
-[![Live Dashboard](https://img.shields.io/badge/Live_Dashboard-Open_in_Browser-2563eb?style=for-the-badge&logo=chartdotjs&logoColor=white)](https://gagandeepsk.github.io/fintech-payments-risk-engine/dashboard/dashboard.html)
+[![Live Dashboard](https://img.shields.io/badge/Live_Dashboard-Open_in_Browser-2563eb?style=for-the-badge&logo=chartdotjs&logoColor=white)](http://htmlpreview.github.io/?https://gagandeepsk.github.io/fintech-payments-risk-engine/dashboard/dashboard.html)
 
 ## Key Results
 
