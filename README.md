@@ -106,7 +106,7 @@ A cost model (fraud approved = 100% txn value, legit declined = GBP 15, manual r
 
 ## Dashboard
 
-Open `dashboard/dashboard.html` in any browser, or click the **Live Dashboard** button above. No server required.
+Download and open `dashboard/dashboard.html` in any browser.
 
 **5 tabs:**
 1. **Overview** — KPIs, daily fraud rate, monthly volume, category and payment breakdowns
